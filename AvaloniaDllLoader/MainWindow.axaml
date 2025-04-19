@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="AvaloniaDllLoader.MainWindow"
+        Title="AvaloniaDllLoader"
+        Width="1000" Height="600">
+    <Grid ColumnDefinitions="*,300">
+        <!-- Левая часть — предпросмотр контрола -->
+        <ContentControl x:Name="PreviewHost"
+                        Margin="10"
+                        Background="DarkSlateGray"
+                        Grid.Column="0" />
+
+        <!-- Правая панель -->
+        <StackPanel Grid.Column="1"
+                    Margin="10"
+                    Spacing="8">
+            <TextBlock Text="Контролы проекта:" FontWeight="Bold"/>
+            <ComboBox Width="200"  x:Name="ControlSelector" />
+            <Button x:Name="RefreshButton" Content="🔄 Обновить список" />
+            <Button x:Name="LoadButton" Content="📦 Загрузить контрол" />
+        </StackPanel>
+    </Grid>
+</Window>

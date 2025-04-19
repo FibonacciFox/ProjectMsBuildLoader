@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMsBuildLoader", "ProjectMsBuildLoader\ProjectMsBuildLoader.csproj", "{3D075C7F-5545-4DC2-8AFA-93DC0CD39A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{49007959-3571-4A10-AFFF-709DD7A2BAD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaDllLoader", "AvaloniaDllLoader\AvaloniaDllLoader.csproj", "{951A31EE-9D5C-48BF-8D65-27133FDE8975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D075C7F-5545-4DC2-8AFA-93DC0CD39A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D075C7F-5545-4DC2-8AFA-93DC0CD39A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D075C7F-5545-4DC2-8AFA-93DC0CD39A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D075C7F-5545-4DC2-8AFA-93DC0CD39A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49007959-3571-4A10-AFFF-709DD7A2BAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49007959-3571-4A10-AFFF-709DD7A2BAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49007959-3571-4A10-AFFF-709DD7A2BAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49007959-3571-4A10-AFFF-709DD7A2BAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951A31EE-9D5C-48BF-8D65-27133FDE8975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951A31EE-9D5C-48BF-8D65-27133FDE8975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951A31EE-9D5C-48BF-8D65-27133FDE8975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951A31EE-9D5C-48BF-8D65-27133FDE8975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
