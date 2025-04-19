@@ -64,3 +64,4 @@
 /home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/Demo/obj/Debug/net9.0/Demo.csproj.Up2Date
 /home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/Demo/obj/Debug/net9.0/Demo.genruntimeconfig.cache
 /home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/Demo/obj/Debug/net9.0/ref/Demo.dll
+/home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/Demo/obj/Debug/net9.0/Demo.sourcelink.json

@@ -26,7 +26,6 @@ public partial class MainWindow : Window
     {
         ControlSelector.ItemsSource = null;
         RefreshControlsList();
-        
     }
 
     private void LoadButton_Click(object? sender, RoutedEventArgs e)
@@ -35,9 +34,22 @@ public partial class MainWindow : Window
             return;
 
         var type = _loadedAssembly.GetType(selectedType);
-        if (type != null && Activator.CreateInstance(type) is Control control)
+        if (type == null)
+            return;
+
+        var instance = Activator.CreateInstance(type);
+
+        switch (instance)
         {
-            PreviewHost.Content = control;
+            case Window window:
+                window.Show();
+                break;
+            case Control control:
+                PreviewHost.Content = control;
+                break;
+            default:
+                Console.WriteLine($" Тип {selectedType} не является ни Window, ни Control.");
+                break;
         }
     }
 
@@ -70,6 +82,10 @@ public partial class MainWindow : Window
             .ToList();
 
         ControlSelector.ItemsSource = controls;
-        ControlSelector.SelectedIndex = 1;
+
+        if (controls.Count > 0)
+        {
+            ControlSelector.SelectedIndex = 0;
+        }
     }
 }

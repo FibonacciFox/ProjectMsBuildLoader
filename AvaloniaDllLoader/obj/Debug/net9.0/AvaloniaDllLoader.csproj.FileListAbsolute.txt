@@ -69,3 +69,4 @@
 /home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/AvaloniaDllLoader/obj/Debug/net9.0/AvaloniaDllLoader.genruntimeconfig.cache
 /home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/AvaloniaDllLoader/obj/Debug/net9.0/ref/AvaloniaDllLoader.dll
 /home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/AvaloniaDllLoader/bin/Debug/net9.0/Microsoft.Build.Framework.dll
+/home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/AvaloniaDllLoader/obj/Debug/net9.0/AvaloniaDllLoader.sourcelink.json
