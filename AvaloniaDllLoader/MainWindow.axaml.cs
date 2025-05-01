@@ -12,7 +12,7 @@ namespace AvaloniaDllLoader;
 public partial class MainWindow : Window
 {
     private Assembly? _loadedAssembly;
-    private string _projectPath = "/home/deck/Desktop/Projects/ProjectMsBuildLoader/ProjectMsBuildLoader/Demo/Demo.csproj";
+    private string _projectPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../Demo/Demo.csproj"));
 
     public MainWindow()
     {
